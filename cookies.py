@@ -1,7 +1,7 @@
 from selenium import webdriver
 from datetime import datetime
 
-chrome_driver_path = '/Users/purush/Development/chromedriver'
+chrome_driver_path = 'chromedriver--path'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 cookie_url = 'http://orteil.dashnet.org/experiments/cookie/'
